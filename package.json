@@ -10,7 +10,8 @@
     "demo:build": "NODE_ENV=production parcel build --experimental-scope-hoisting demo/index.html --public-url='./'",
     "posttest": "eslint .",
     "prepublishOnly": "npm run build",
-    "postpublish": "npm run demo:build && gh-pages -d dist"
+    "postpublish": "npm run demo:build && gh-pages -d dist",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
