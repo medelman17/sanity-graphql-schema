@@ -36,6 +36,7 @@
     "react-dom": "^16.7.0"
   },
   "dependencies": {
+    "eslint-plugin-react": "^7.22.0",
     "graphql": "^14.0.2",
     "lodash": "^4.17.11",
     "oneline": "^1.0.0"
